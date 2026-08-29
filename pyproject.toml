@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hideot-iopr"
+version = "0.1.0"
+description = "Minimal project scaffold for Hideot.iopr."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Poycoin" }]
+
+[tool.setuptools]
+packages = ["hideot"]
+py-modules = ["iopr"]
